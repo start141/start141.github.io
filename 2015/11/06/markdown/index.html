@@ -94,9 +94,9 @@
   <div class="inner profile-inner">
     <div class="base-info profile-block">
       <img id="avatar" src="/res/avatar.png">
-      <h2 id="name">start141</h2>
+      <h2 id="name">PPOffice</h2>
       <h3 id="title">Android Developer</h3>
-      <span id="location"><i class="fa fa-map-marker"></i>中国</span>
+      <span id="location"><i class="fa fa-map-marker"></i>中国, 深圳</span>
       <a id="follow" href="http://weibo.com/start141">关注我</a>
     </div>
     <div class="article-info profile-block">
@@ -114,7 +114,7 @@
       <table class="contact-list">
         <tr>
           
-          <td><a href="https://github.com/start141" target="_blank" title="github"><i class="fa fa-github"></i></a></td>
+          <td><a href="http://github.com/start141" target="_blank" title="github"><i class="fa fa-github"></i></a></td>
           
         </tr>
       </table>
@@ -438,8 +438,8 @@ id sem consectetuer libero luctus adipiscing.
 <pre><code><span class="xml">function test() </span><span class="expression">{
   <span class="variable">console.log</span>(<span class="string">"notice the blank line before this function?"</span>);
 }</span><span class="xml">
-<span class="comment"><figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Preview:</span><br><span class="line"><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span></span><br><span class="line">Here's an example:</span><br></pre></td></tr></table></figure></span></span>
-</code></pre><p>function test() {<br>  console.log(“notice the blank line before this function?”);<br>}<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="emphasis">***</span></span><br><span class="line"><span class="header">#### Syntax Highlighting</span></span><br><span class="line">In your fenced block, add an optional language identifier and we'll run it through syntax highlighting ([<span class="link_label">Support Languages</span>](<span class="link_url">https://github.com/github/linguist/blob/master/lib/linguist/languages.yml</span>)).</span><br><span class="line"></span><br><span class="line">Code:</span><br><span class="line"></span><br><span class="line"><span class="code">    ```ruby</span></span><br><span class="line"><span class="code">    require 'redcarpet'</span></span><br><span class="line"><span class="code">    markdown = Redcarpet.new("Hello World!")</span></span><br><span class="line"><span class="code">    puts markdown.to_html</span></span><br></pre></td></tr></table></figure></p>
+<span class="comment"><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Preview:&#10;***&#10;Here&#39;s an example:</span><br></pre></td></tr></table></figure></span></span>
+</code></pre><p>function test() {<br>  console.log(“notice the blank line before this function?”);<br>}<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">***&#10;#### Syntax Highlighting&#10;In your fenced block, add an optional language identifier and we&#39;ll run it through syntax highlighting ([Support Languages](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)).&#10;&#10;Code:&#10;&#10;    ```ruby&#10;    require &#39;redcarpet&#39;&#10;    markdown = Redcarpet.new(&#34;Hello World!&#34;)&#10;    puts markdown.to_html</span><br></pre></td></tr></table></figure></p>
 <p>Preview:</p>
 <hr>
 <figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">require</span> <span class="string">'redcarpet'</span></span><br><span class="line">markdown = <span class="constant">Redcarpet</span>.new(<span class="string">"Hello World!"</span>)</span><br><span class="line">puts markdown.to_html</span><br></pre></td></tr></table></figure>
@@ -463,7 +463,7 @@ ___
 <p>It’s an extension.</p>
 <p>Separates column by <strong>pipe (|)</strong> and header by <strong>dashes (-)</strong>, and uses <strong>colon (:)</strong> for alignment.</p>
 <p>The outer <strong>pipes (|)</strong> and alignment are optional. There are <strong>3 delimiters</strong> each cell at least for separating header.</p>
-<p>Code:<br><figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">|<span class="string"> Left </span>|<span class="string"> Center </span>|<span class="string"> Right </span>|</span><br><span class="line">|<span class="string">:-----</span>|<span class="string">:------:</span>|<span class="string">------:</span>|</span><br><span class="line">|<span class="string">aaa   </span>|<span class="string">bbb     </span>|<span class="string">ccc    </span>|</span><br><span class="line">|<span class="string">ddd   </span>|<span class="string">eee     </span>|<span class="string">fff    </span>|</span><br><span class="line"></span><br><span class="line"> A |<span class="string"> B</span><br><span class="line">---</span>|<span class="string">---</span><br><span class="line">123</span>|456</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">A |<span class="string">B</span><br><span class="line">--</span>|<span class="string">--</span><br><span class="line">12</span>|45</span><br></pre></td></tr></table></figure></p>
+<p>Code:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">| Left | Center | Right |&#10;|:-----|:------:|------:|&#10;|aaa   |bbb     |ccc    |&#10;|ddd   |eee     |fff    |&#10;&#10; A | B&#10;---|---&#10;123|456&#10;&#10;&#10;A |B&#10;--|--&#10;12|45</span><br></pre></td></tr></table></figure></p>
 <p>Preview:</p>
 <hr>
 <table>
@@ -648,7 +648,7 @@ A backtick-delimited string <span class="keyword">in</span> <span class="tag">a<
 <h3 id="Strikethrough">Strikethrough</h3><p>HTML Tag: <code>&lt;del&gt;</code></p>
 <p>It’s an extension.</p>
 <p>GFM adds syntax to strikethrough text.</p>
-<p>Code:<br><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~~Mistaken <span class="type">text</span>.~~</span><br></pre></td></tr></table></figure></p>
+<p>Code:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~~Mistaken text.~~</span><br></pre></td></tr></table></figure></p>
 <p>Preview:</p>
 <hr>
 <p><del>Mistaken text.</del></p>
@@ -661,10 +661,10 @@ A backtick-delimited string <span class="keyword">in</span> <span class="tag">a<
 </code></pre><p>Preview:</p>
 <hr>
 <p><a href="http://example.com/" target="_blank" rel="external">http://example.com/</a></p>
-<p><a href="&#109;&#97;&#x69;&#x6c;&#116;&#111;&#58;&#97;&#x64;&#x64;&#114;&#x65;&#115;&#x73;&#64;&#101;&#x78;&#x61;&#109;&#112;&#x6c;&#x65;&#x2e;&#x63;&#111;&#109;">&#97;&#x64;&#x64;&#114;&#x65;&#115;&#x73;&#64;&#101;&#x78;&#x61;&#109;&#112;&#x6c;&#x65;&#x2e;&#x63;&#111;&#109;</a></p>
+<p><a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x61;&#x64;&#x64;&#x72;&#x65;&#115;&#115;&#x40;&#x65;&#x78;&#97;&#x6d;&#x70;&#108;&#101;&#x2e;&#x63;&#111;&#x6d;">&#x61;&#x64;&#x64;&#x72;&#x65;&#115;&#115;&#x40;&#x65;&#x78;&#97;&#x6d;&#x70;&#108;&#101;&#x2e;&#x63;&#111;&#x6d;</a></p>
 <hr>
 <p>GFM will autolink standard URLs.</p>
-<p>Code:<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">https:</span><span class="comment">//github.com/emn178/markdown</span></span><br></pre></td></tr></table></figure></p>
+<p>Code:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/emn178/markdown</span><br></pre></td></tr></table></figure></p>
 <p>Preview:</p>
 <hr>
 <p><a href="https://github.com/emn178/markdown" target="_blank" rel="external">https://github.com/emn178/markdown</a></p>
@@ -725,7 +725,7 @@ This is another regular paragraph.
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://start141.gitcafe.io/2015/11/06/markdown/" data-id="cignjdfwr000lw3xsyqp8y6c8" class="article-share-link">分享到</a>
+      <a data-url="http://start141.gitcafe.io/2015/11/06/markdown/" data-id="cignm1utf000l6dxsu9j4lqyq" class="article-share-link">分享到</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/markdown/">markdown</a></li></ul>
@@ -888,7 +888,7 @@ This is another regular paragraph.
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2015 start141<br>
+      &copy; 2015 PPOffice<br>
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>
     </div>
   </div>
